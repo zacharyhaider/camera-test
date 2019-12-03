@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB4C1F22396177600DC0E39 /* UIImageExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4C1F12396177600DC0E39 /* UIImageExtentions.swift */; };
 		3FB8FDBB239612490053165E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8FDBA239612490053165E /* AppDelegate.swift */; };
 		3FB8FDBD239612490053165E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8FDBC239612490053165E /* SceneDelegate.swift */; };
 		3FB8FDBF239612490053165E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8FDBE239612490053165E /* ContentView.swift */; };
 		3FB8FDC12396124E0053165E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB8FDC02396124E0053165E /* Assets.xcassets */; };
 		3FB8FDC42396124E0053165E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB8FDC32396124E0053165E /* Preview Assets.xcassets */; };
 		3FB8FDC72396124E0053165E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB8FDC52396124E0053165E /* LaunchScreen.storyboard */; };
+		3FB8FDCF239613F90053165E /* Coodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8FDCE239613F90053165E /* Coodinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FB4C1F12396177600DC0E39 /* UIImageExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtentions.swift; sourceTree = "<group>"; };
 		3FB8FDB7239612490053165E /* CameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB8FDBA239612490053165E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB8FDBC239612490053165E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		3FB8FDC32396124E0053165E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FB8FDC62396124E0053165E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB8FDC82396124E0053165E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB8FDCE239613F90053165E /* Coodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coodinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3FB8FDC52396124E0053165E /* LaunchScreen.storyboard */,
 				3FB8FDC82396124E0053165E /* Info.plist */,
 				3FB8FDC22396124E0053165E /* Preview Content */,
+				3FB8FDCE239613F90053165E /* Coodinator.swift */,
+				3FB4C1F12396177600DC0E39 /* UIImageExtentions.swift */,
 			);
 			path = CameraTest;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB8FDBB239612490053165E /* AppDelegate.swift in Sources */,
+				3FB8FDCF239613F90053165E /* Coodinator.swift in Sources */,
+				3FB4C1F22396177600DC0E39 /* UIImageExtentions.swift in Sources */,
 				3FB8FDBD239612490053165E /* SceneDelegate.swift in Sources */,
 				3FB8FDBF239612490053165E /* ContentView.swift in Sources */,
 			);
@@ -286,8 +294,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CameraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = FLB6R5WL48;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CameraTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nwmissouri.CameraTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -305,8 +315,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CameraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = FLB6R5WL48;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CameraTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nwmissouri.CameraTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
